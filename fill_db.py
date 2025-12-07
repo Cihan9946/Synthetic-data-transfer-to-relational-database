@@ -10,15 +10,7 @@ import urllib
 
 # --- AYARLAR ---
 
-# Senin verdiğin ham bağlantı cümlesi
 RAW_CONN_STR = (
-    "DRIVER={ODBC Driver 17 for SQL Server};"
-    "SERVER=DESKTOP-OUI1G5B\\SQLEXPRESS;"
-    "DATABASE=LinkErpTest;"
-    "Trusted_Connection=yes;"
-    "Encrypt=yes;"
-    "TrustServerCertificate=yes;"
-    "MultipleActiveResultSets=True;"
 )
 
 # Her tabloya kaç satır basılsın?
@@ -185,4 +177,5 @@ def fill_tables():
         print("\n🏁 İşlem Tamamlandı!")
 
 if __name__ == "__main__":
+
     fill_tables()
