@@ -16,8 +16,8 @@ logger = logging.getLogger(__name__)
 
 # --- AYARLAR ---
 ROW_COUNT = 15
-DB_NAME = "LinkErpTest"
-SERVER_NAME = "DESKTOP-OUI1G5B\\SQLEXPRESS"
+DB_NAME = ""
+SERVER_NAME =""
 
 # Atlanacak Tablolar
 SKIP_TABLES = ['__EFMigrationsHistory', 'sysdiagrams', 'dtproperties']
@@ -280,4 +280,5 @@ def main():
     logger.info("🏁 İŞLEM TAMAMLANDI.")
 
 if __name__ == "__main__":
+
     main()
